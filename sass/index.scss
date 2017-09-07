@@ -1,0 +1,360 @@
+#rocket-to-top{
+    background: url("../images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor: default;
+    display: block;
+    height: 2.5rem;
+    margin: -1.25rem 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 80%;
+    width: 1.49rem;
+    z-index: 11;
+    div{
+        left: 0;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        width: 1.49rem;
+    }
+    .level-2{
+        background: url("../images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+        display: none;
+        height: 2.5rem;
+        opacity: 0;
+        z-index: 1;
+    }
+    .level-3{
+        background: none repeat scroll 0 0 transparent;
+        cursor: pointer;
+        display: block;
+        height: 1.5rem;
+        z-index: 2;
+    }
+}
+body,html{
+    background: #03182b;
+    width: 100%;
+    height:100%;
+}
+*{
+}
+.kl{
+    width: 100%;
+    position: relative;    
+    .top{        
+        width: calc(100% - 0.32rem);
+        width: -moz-calc(100% - 0.32rem);
+        width: -moz-calc(100% - 0.32rem);
+        padding:0 0.16rem;
+        margin: 0 auto;
+        position: relative;
+        height:8.58rem;
+        background: url(../images/lq_top_bg.png) no-repeat center top;
+        background-size:cover ;
+        text-align: center;
+//      .logo{
+//          position: absolute;
+//          top:0.12rem;
+//          left: 0.2rem;
+//          img{
+//              height:1.06rem;
+//          }
+//      }
+        .logo{
+            width: calc(100% - 0.32rem);
+            width: -moz-calc(100% - 0.32rem);
+            width: -moz-calc(100% - 0.32rem);
+            position: absolute;
+            left:0;
+            right: 0;
+            margin:0 auto;
+            top:0.46rem;           
+            h2{
+                height:0.83rem;
+                margin-left: 0.2rem;
+                img{
+                    height: 0.82rem;
+                }
+            }
+            h4{
+                font:0.24rem/0.83rem "微软雅黑";
+                color: #fff6d3;
+                a{
+                    color: #fff6d3;
+                    margin:0 0.1rem;
+                }
+            }
+        }
+//      ul{
+//          position: absolute;
+//          right:0;
+//          left:0.5rem;
+//          top:8.2rem;
+//          li{
+//              img{
+//                  height:0.78rem;
+//              }
+//              .login,.register{
+//                  margin-top:0.14rem ;
+//              }
+//          }
+//          .logins{
+//               margin-top:0.14rem ;
+//          }
+//      }
+        ul{                      
+            display: inline-block;
+            margin-top: 7.17rem;
+            li{
+                width: 2.46rem;
+                height:0.89rem;
+                p{
+                    width: 2.46rem;
+                    height:0.89rem;
+                }
+                .gw{
+                    background: url(../images/lq_gw.png) no-repeat center;
+                    background-size:cover;
+                }
+                .gw:hover{
+                    background: url(../images/lq_gw_hover.png) no-repeat center;
+                    background-size:cover;
+                }
+                .login{
+                    background: url(../images/lq_dl.png) no-repeat center;
+                    background-size:cover;
+                }
+                .login:hover{
+                   background: url(../images/lq_dl_hover.png) no-repeat center;
+                    background-size:cover; 
+                }
+                .register{
+                    background: url(../images/tchover.jpg) no-repeat center;
+                    background-size:cover;
+                }
+                .register:hover{
+                    background: url(../images/lq_tc.png) no-repeat center;
+                    background-size:cover;
+                }
+            }
+            .logins{
+            }
+        }
+        h3{
+            position: absolute;
+            width: 90%;
+            text-align: center;
+            font:0.24rem/0.4rem "微软雅黑";
+            color: #0c2249;
+            color: #fff;
+            top:9.0rem;
+            transform: rotate(-3deg);
+            span{
+                color: #F32727;
+                margin:0 0.1rem;
+            }
+        }
+    }
+    .center{
+        width: calc(100% - 0.38rem);
+        width: -moz-calc(100% - 0.38rem);
+        width: -moz-calc(100% - 0.38rem);
+//      padding:0 0.16rem;
+        margin:0 0.16rem;
+        background: #050505;
+        border:0.03rem solid #f6d687;
+        h2{
+            width: 100%;
+            img{
+                height:0.4rem;
+                padding:0.39rem 0;
+                margin:0 auto;
+            }
+        }
+        h3{
+            font-size: 0.12rem;
+            color: #ac9f8f;
+            text-align: center;
+            padding:0 0.42rem;
+            margin-bottom: 0.19rem;
+        }
+        .content{
+            width: 100%;
+            .per{
+                width: 100%;
+                position: relative;
+                h4{
+                    text-align: center;
+                    font:0.27rem/1.15rem "微软雅黑";
+                    color: #ac9f8f;
+                    width: 100%;
+                    span{
+                        color: #f9db85;
+                        font-size:0.29rem;
+                    }
+                }
+                .con{
+                    width: 100%;
+                    text-align: center;
+                    font-size: 0;
+                    dl,p{
+                        display: inline-block;
+                    }
+                    p{
+                        height:1.43rem;
+                        width: 0.53rem;
+                        text-align: center;
+                        line-height: 1.43rem;
+                        color: #fbc76d;
+                        font-size: 0.28rem;
+                        vertical-align: top;
+                    }
+                    dl{
+                        vertical-align: top;
+                        margin:0 0.05rem;
+                        dt{
+                            width: 1.35rem;
+                            height:1.35rem;
+                            position: relative;
+                            background: url(../images/lq_hd_bg.png) no-repeat center;
+                            background-size: cover;
+                            margin-bottom: 0.08rem;
+                            img{
+                                width: 0.85rem;
+                                position: absolute;
+                                left:0;
+                                top:0;
+                                bottom: 0;
+                                right:0;
+                                margin:auto;
+                            }
+                        }
+                        dd{
+                            width:1.35rem;
+                            text-align: center;
+                            font:0.22rem/0.26rem "微软雅黑";
+                            color: #ac9f8f;
+                        }
+                        .small{
+                            font-size: 0.16rem;
+                        }
+                    }
+                }
+                .lingqu{
+                    width: 1.63rem;
+                    height:0.52rem;
+                    margin:0.25rem auto;
+                    .lq{
+                        a{
+                            display: block;
+                            width: 1.63rem;
+                            height:0.52rem;                           
+                            background: url(../images/lqhover.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                    .lq:hover{
+                        a{
+                            background: url(../images/lq_lq.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                    .disabled{
+                        a{
+                            display: block;
+                            width: 1.63rem;
+                            height:0.52rem;                           
+                            background: url(../images/lq_ylq.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                    
+                }
+                
+                .zjlb,.gjlb{
+                    position: absolute;
+                    left:0;
+                    top:-0.7rem;
+                    text-align: center;
+                    background: #03182b;
+                    padding:0.18rem 0;
+                    border:0.03rem solid #fdd177;
+                    dl{
+                        display: inline-block;
+                        margin:0 0.05rem;
+                        width: 0.78rem;
+                        dt{
+                            width: 0.78rem;
+                            height:0.78rem;
+                            background: none;
+                            img{
+                                width: 0.78rem;
+                            }
+                        }
+                        dd{
+                            font-size: 0.12rem;
+                        }
+                    }
+                }
+                .zjlb{
+                    left:0.43rem;
+                }
+                .gjlb{
+                    left:0.35rem;
+                }
+                 .zjlb:after, .gjlb:after{
+                    border: solid transparent;
+                    content: ' ';
+                    height: 0;
+                    top: 100%;
+                    position: absolute;
+                    width: 0;
+                }
+        
+                .zjlb:after,.gjlb:after {
+                    border-width: 0.1rem;
+                    border-top-color: #fdd177;
+                    left: 0;
+                    right:0;
+                    margin: 0 auto;
+                }
+                .zjlb:after{
+                    left: -0.45rem;
+                }
+                .gjlb:after{
+                    left: 0rem;
+                }
+            }
+        }
+    }
+    .bottom{
+        width: calc(100% - 0.4rem);
+        width: -moz-calc(100% - 0.4rem);
+        width: -moz-calc(100% - 0.4rem);
+        padding:0.5rem 0.2rem;
+        margin:0 auto;
+        background: url(../images/footbg.jpg) no-repeat center;
+        background-size: cover;
+        h2{
+            padding:0.22rem;
+            img{
+                height:0.4rem;
+                margin:0 auto;
+            }
+        }
+        ul{
+            li{
+                font:0.12rem/0.52rem "微软雅黑";
+                color: #88898a;
+                span{
+                    color: #c70101;
+                }
+            }
+        }
+    }
+}
+

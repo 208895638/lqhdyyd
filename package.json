@@ -1,0 +1,26 @@
+{
+  "name": "lqhuodongye",
+  "version": "1.0.0",
+  "description": "狂猎移动端",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/208895638/kuangliewap.git"
+  },
+  "author": "zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/208895638/kuangliewap/issues"
+  },
+  "homepage": "https://github.com/208895638/kuangliewap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "keywords": [
+    "洛奇活动页"
+  ]
+}
